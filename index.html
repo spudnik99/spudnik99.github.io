@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Mexico's Geography in Brief</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>-->
+        <link href="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.css" rel="stylesheet">
+        <script src="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.js"></script>
+    <!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>-->
+    <!--   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>-->
+        
+
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+            }
+        
+            #mapmx {
+                position: fixed;
+                top: 0;
+                bottom: 100%;
+                width: 50%;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="" async defer></script>
+    <link rel="stylesheet" href="./css/styles.css">
+    
+<div id="rightside">
+    <nav id="topline">
+        <p><h2>Mexico's Geography in Brief</br>A Storymap</h2>
+        </p>
+       
+    </nav>
+
+    <div id="mapdiv"></div>
+</div>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1Ijoic3B1ZG5pazk5IiwiYSI6ImNqd3p1Y3M5bDFrOGI0M250YWx3cXVmdGsifQ.T7rxXrwvFVHKQ1zfBCoytw';
+        const mapmx = new mapboxgl.Map({
+            container: 'mapdiv',
+            style: 'mapbox://styles/mapbox/light-v10',
+            center: [-101.499795, 21.123449],
+            zoom: 1,
+            pitch: 0,
+            bearing: 0,
+            antialias: true
+        });
+
+    </script>
+<script src="./js/app.js" async defer></script>
+        <nav id="features">
+            <section id="intro" class="active">
+                <h3>Introduction</h3>
+                <p>
+                   Location, location, location...this storymap is 
+                   a basic briefer that highlights geographic features 
+                   that impact Mexican society.
+                </p>
+            </section>
+            <section id="whereisitlocated">
+                <h3>Putting it on the map</h3>
+                <p>
+                    Mexico is located in the Western Hemisphere, bordering the USA on the north, 
+                    Guatemala and Belize to the South.
+                </p>
+            </section>
+            <section id="tropicalparadise">
+                <h3>Is it a tropical paradise?</h3>
+                <p>
+                    The Tropic of Cancer bissects the country horizontally, but most of
+                    the land mass is not in the tropics.
+                </p>
+            </section>
+            <section id="leftcoast">
+                <h3>The left coast</h3>
+                <p>
+                    A long coastline with some natural harbors has allowed Mexico to trade
+                    with China beginning with the Ming Dynasty in 1573.
+                </p>
+            </section>
+            <section id="thegulf">
+                <h3>The Gulf of Here</h3>
+                <p>
+                    A large, almost circular coastline has provided trade with 
+                </p>
+            </section>
+            <section id="hyped">
+                <h3>The Hyped Riviera</h3>
+                <p>
+                    A small, but beautiful Caribbean coast provides modern day Mexico
+                    with tourism.
+                </p>
+            </section>
+
+            <section id="neovolcanicintro">
+                <h3>The heart of Mexico</h3>
+                <p>
+                    When most non-Mexicans think of Mexico, mariachis, tequila, and tacos come to mind.
+                    All them have their origin in the neo-volcanic transerval range. <p style="color :green; ">Green area on map is the neo-volcanic range.</p>
+                </p>
+            </section>
+             <section id="neovolcanic">
+                    <h3>Where most Mexicans live</h3>
+                        <p>
+                            The Mexican populace  lives mostly in a relatively small physiographic
+                            region, the pine-oak forests known as the neo-volcanic transerval range. 
+                    All them have their origin in the neo-volcanic transerval range. <p style="color :blue; ">Blue towers on map are localities, height is total population.</p>
+                        </p>
+            </section>
+            <section id="volcanoes">
+                <h3>Living with volcanoes</h3>
+                <p>
+                    The neo-volcanic transerval range is dotted  with thousands of volcanoes of varying sizes.
+                    Most of this region is a high plain, the abrupt change in elevation of volcanic structures created "islands" of isolated biodiversity, Mexico has the largest variety of pine trees in the world. <p style="color :red; ">Red dots are volcanoes.</p>
+                <small id="citation">
+                    All original shapefiles from
+                    <a href="http://www.inegi.org">INEGI</a>
+                </small>
+            </section>
+        </nav>
+  
+        
+    </body>
+</html>

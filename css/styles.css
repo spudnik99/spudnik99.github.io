@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#mapdiv {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+/*
+#mapdiv {
+  position: fixed;
+  width: 50%;
+  z-index: 2;
+}*/
+#features {
+  width: 30%;
+
+  margin-left: 70%;
+
+  font-family: sans-serif;
+  overflow-y: scroll;
+  opacity: 0.8;
+  background-color: #fafafa;
+}
+#topline {
+  /*height: 10%; */
+  position: fixed;
+  margin-top: 10px;
+  margin-left: 10px;
+
+  font-family: sans-serif;
+  overflow-y: none;
+  opacity: 0.8;
+  z-index: 1;
+  background-color: #fff;
+}
+section {
+  padding: 25px 50px;
+  line-height: 25px;
+  border-bottom: 1px solid #ddd;
+  opacity: 0.25;
+  font-size: 13px;
+}
+section.active {
+  opacity: 1;
+}
+section:last-child {
+  border-bottom: none;
+  margin-bottom: 800px;
+}
