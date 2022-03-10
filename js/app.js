@@ -2,63 +2,63 @@ mapmx.on("load", () => {
   /** Add Source for Layers */
   mapmx.addSource("MxCountry", {
     type: "geojson",
-    data: "https://github.com/spudnik99/MexicoGeoBriefer/raw/main/GeoJSON/MxCountry.geojson",
+    data: "./GeoJSON/MxCountry.geojson",
   });
   /*   mapmx.addSource("MxCountryEnt", {
     type: "geojson",
-    data: "https://github.com/spudnik99/MexicoGeoBriefer/raw/main/GeoJSON/MxCountryEnt.geojson",
+    data: "./GeoJSON/MxCountryEnt.geojson",
   }); */
   mapmx.addSource("TropicCancerWest", {
     type: "geojson",
-    data: "https://github.com/spudnik99/MexicoGeoBriefer/raw/main/GeoJSON/TropicCancerWest.geojson",
+    data: "./GeoJSON/TropicCancerWest.geojson",
   });
   mapmx.addSource("MxBoundingBox", {
     type: "geojson",
-    data: "https://github.com/spudnik99/MexicoGeoBriefer/raw/main/GeoJSON/MxBoundingBox.geojson",
+    data: "./GeoJSON/MxBoundingBox.geojson",
   });
   mapmx.addSource("MxPacific", {
     type: "geojson",
 
-    data: "https://github.com/spudnik99/MexicoGeoBriefer/raw/main/GeoJSON/MxPacific.geojson",
+    data: "./GeoJSON/MxPacific.geojson",
     //data: "./GeoJSON/national/MxLocalities.geojson",
   });
   mapmx.addSource("MxGulf", {
     type: "geojson",
 
-    data: "https://github.com/spudnik99/MexicoGeoBriefer/raw/main/GeoJSON/MxGulf.geojson",
+    data: "./GeoJSON/MxGulf.geojson",
     //data: "./GeoJSON/national/MxLocalities.geojson",
   });
   mapmx.addSource("MxCaribbean", {
     type: "geojson",
 
-    data: "https://github.com/spudnik99/MexicoGeoBriefer/raw/main/GeoJSON/MxCaribbean.geojson",
+    data: "./GeoJSON/MxCaribbean.geojson",
     //data: "./GeoJSON/national/MxLocalities.geojson",
   });
 
   mapmx.addSource("MxVolcanic", {
     type: "geojson",
 
-    data: "https://github.com/spudnik99/MexicoGeoBriefer/raw/main/GeoJSON/MxLocArea.geojson",
+    data: "./GeoJSON/MxLocArea.geojson",
     //data: "./GeoJSON/national/MxLocalities.geojson",
   });
 
   mapmx.addSource("MxLocArea", {
     type: "geojson",
 
-    data: "https://github.com/spudnik99/MexicoGeoBriefer/raw/main/GeoJSON/MxLocArea.geojson",
+    data: "./GeoJSON/MxLocArea.geojson",
     //data: "./GeoJSON/national/MxLocalities.geojson",
   });
 
   mapmx.addSource("MxNeoVolcanic", {
     type: "geojson",
 
-    data: "https://github.com/spudnik99/MexicoGeoBriefer/raw/main/GeoJSON/MxNeoVolcanic.geojson",
+    data: "./GeoJSON/MxNeoVolcanic.geojson",
     //data: "./GeoJSON/national/MxLocalities.geojson",
   });
 
   mapmx.addSource("MxVolcanoes", {
     type: "geojson",
-    data: "https://github.com/spudnik99/MexicoGeoBriefer/raw/main/GeoJSON/MxVolcanoes.geojson",
+    data: "./GeoJSON/MxVolcanoes.geojson",
   });
   /** Add Layers */
   mapmx.addLayer({
