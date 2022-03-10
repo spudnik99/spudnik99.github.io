@@ -58,7 +58,7 @@ mapmx.on("load", () => {
 
   mapmx.addSource("MxVolcanoes", {
     type: "geojson",
-    data: "./GeoJSON/national/MxVolcanoes.geojson",
+    data: "https://github.com/spudnik99/MexicoGeoBriefer/raw/main/GeoJSON/MxVolcanoes.geojson",
   });
   /** Add Layers */
   mapmx.addLayer({
